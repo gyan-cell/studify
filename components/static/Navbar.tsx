@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import NavElements from "../client/NavElements";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav>
+      <div className="logo">
+        Studify.
+      </div>
+     <NavElements /> 
+    </nav>
+  );
+};
 
-export default Navbar 
+export default Navbar;
