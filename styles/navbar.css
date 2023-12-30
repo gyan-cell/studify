@@ -8,6 +8,7 @@ nav {
   height: 4rem;
   align-items: center;
   background: var(--colorDarkestBlue);
+  z-index: 100;
   color: var(--colorPurple);
 }
 .logo {

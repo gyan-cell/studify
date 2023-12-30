@@ -1,4 +1,7 @@
+import Hero from "@/components/static/Hero";
 
 export default function Home() {
-  return <div>Hello From Studify.</div>;
+  return (
+      <Hero />
+  );
 }
